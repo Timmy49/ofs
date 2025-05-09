@@ -4,6 +4,8 @@
 // @version      1.4
 // @description  OFS JSON-RPC local download file
 // @match        https://www.ofs.edu.sg/my-ofs/*
+// @updateURL    https://timmy49.github.io/ofs/ofsteel.user.js
+// @downloadURL  https://timmy49.github.io/ofs/ofsteel.user.js
 // @grant        none
 // ==/UserScript==
 
