@@ -18,16 +18,28 @@ body {
 
 .card {
   background: #fff;
-  padding: 40px;
+  padding: 50px;
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   text-align: center;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 h1 { margin: 0 0 10px; }
 h2 { margin: 0 0 20px; color: #666; font-weight: normal; }
 p { margin: 20px 0; line-height: 1.2; }
+
+a {
+  font-family: 'Courier New', monospace;
+  color: #3399ff;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1a73e8;
+}
 
 a.button {
   display: inline-block;
@@ -35,14 +47,19 @@ a.button {
   padding: 12px 24px;
   background: #3366cc;
   color: #fff;
-  text-decoration: none;
   border-radius: 8px;
   transition: background 0.3s;
 }
 
-a.button:hover { background: #254b9a; }
+a.button:hover {
+  background: #254b9a;
+}
 
-hr { border: none; border-top: 1px solid #ddd; margin: 20px 0; }
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
 </style>
 </head>
 <body>
@@ -50,7 +67,11 @@ hr { border: none; border-top: 1px solid #ddd; margin: 20px 0; }
   <h1>OFSteel - Legacy</h1>
   <h2>The original, legacy version of OFSteel</h2>
   <hr>
-  <p>OFSteel Legacy is a Tampermonkey script to track login info on OFS and download it as JSON file on your computer. The new versions can be accessed <a href="https://timmy49.github.io/ofsteel/index.html">here</a>.</p>
+  <p>
+    OFSteel Legacy is a Tampermonkey script to track login info on OFS and download it as JSON file on your computer. 
+    The new versions can be accessed 
+    <a href="https://timmy49.github.io/ofsteel/index.html">here</a>.
+  </p>
   <hr>
   <a href="/ofs/ofsteel" class="button" download>Install OFSteel</a>
   <a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en" class="button" target="_blank">Install Tampermonkey</a>
